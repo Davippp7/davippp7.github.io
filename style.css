@@ -251,3 +251,20 @@ body.light-mode #toggleTema:hover {
   background-color: #0047b1;
   color: #fff;
 }
+
+/* ===== CORRIGIR TOPO NO CELULAR ===== */
+@media (max-width: 600px) {
+  .topo {
+    padding: 10px 20px;
+    flex-direction: column;      
+    gap: 10px;
+  }
+
+  .topo ul {
+    gap: 12px;
+  }
+
+  .topo h1 {
+    font-size: 1.3rem;         
+  }
+}
